@@ -1,3 +1,20 @@
+# EvalPlusPro is a fork of [EvalPlus](https://github.com/evalplus/evalplus)
+
+This is a companion to [PropertyEval](https://github.com/mrigankpawagi/PropertyEval), a repository of property-based tests for thorough benchmarking of LLM code generation, and allows for the evaluation of LLM code samples with our new benchmark using the existing EvalPlus machinery.
+
+This provides evaluation with
+1. `Base`
+2. `Base + Extra`
+3. `PropertyEval`
+
+where the first two are from the original EvalPlus framework.
+
+To install with ``pip``, 
+
+```bash
+$ pip install git+https://github.com/mrigankpawagi/EvalPlusPro.git
+```
+
 # `EvalPlus(📖) => 📚`
 
 <p align="center">
